@@ -1,0 +1,28 @@
+{
+  "name": "Test-Tracker-Automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-html": "mocha --timeout 5000 -- --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.0"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-20T19:24:03.064Z",
+    "end": "2021-09-20T19:24:03.340Z",
+    "duration": 276,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7344c3e6-40a1-4d05-8068-b7f21f25945b",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5d580302-0ae3-4b32-be1e-ec547476fe21",
+          "title": "USERS",
+          "fullFile": "G:\\Automation_Bro\\Test-Tracker-Automation\\test\\user.js",
+          "file": "\\test\\user.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "74b82cb0-f04f-4609-bbd5-da6273bddbfb",
+              "title": "Post",
+              "fullFile": "G:\\Automation_Bro\\Test-Tracker-Automation\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Create User ",
+                  "fullTitle": "USERS Post Create User ",
+                  "timedOut": false,
+                  "duration": 87,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "82627271-999e-4eed-bfa3-2cd8dcdb0a1d",
+                  "parentUUID": "74b82cb0-f04f-4609-bbd5-da6273bddbfb",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "82627271-999e-4eed-bfa3-2cd8dcdb0a1d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 87,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "ecf688ad-2d5b-4e85-8880-4354932e0097",
+              "title": "Get",
+              "fullFile": "G:\\Automation_Bro\\Test-Tracker-Automation\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "All USER",
+                  "fullTitle": "USERS Get All USER",
+                  "timedOut": false,
+                  "duration": 62,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "13464c6a-ac39-4cc9-ae66-0690453ab749",
+                  "parentUUID": "ecf688ad-2d5b-4e85-8880-4354932e0097",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Specific USER",
+                  "fullTitle": "USERS Get Specific USER",
+                  "timedOut": false,
+                  "duration": 59,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "fa6cbf05-7229-4be0-b66e-0af121e6b795",
+                  "parentUUID": "ecf688ad-2d5b-4e85-8880-4354932e0097",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Negative Testing",
+                  "fullTitle": "USERS Get Negative Testing",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "39a2e7f4-9e62-404e-b40b-4cc8b3e8831b",
+                  "parentUUID": "ecf688ad-2d5b-4e85-8880-4354932e0097",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "13464c6a-ac39-4cc9-ae66-0690453ab749",
+                "fa6cbf05-7229-4be0-b66e-0af121e6b795",
+                "39a2e7f4-9e62-404e-b40b-4cc8b3e8831b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 123,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "4e89b921-da88-4138-942b-1e822cee3da1",
+              "title": "Delete",
+              "fullFile": "G:\\Automation_Bro\\Test-Tracker-Automation\\test\\user.js",
+              "file": "\\test\\user.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "delete User",
+                  "fullTitle": "USERS Delete delete User",
+                  "timedOut": false,
+                  "duration": 59,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "31c4bd23-a2c0-4e86-963a-9c4f00644428",
+                  "parentUUID": "4e89b921-da88-4138-942b-1e822cee3da1",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "31c4bd23-a2c0-4e86-963a-9c4f00644428"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 59,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
