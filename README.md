@@ -1,2 +1,2 @@
 # Test-Tracker-Automation
-Automation Testing with Javascript
+This is an automation testing script developed with javascript.
